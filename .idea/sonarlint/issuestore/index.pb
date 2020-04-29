@@ -17,8 +17,6 @@ V
 &src/components/planet-details/index.js,a/2/a2f92802d708e13b997a53d675b30a6943f9a806
 Q
 !src/components/item-list/index.js,9/6/96505b84b1caa50bab30da693cada2afb93344cd
-V
-&src/components/person-details/index.js,b/4/b4c78a08e41ea72c5af50dc9f8c6976156def1f5
 K
 src/components/app/index.js,3/1/31c7bf9333c9a809705e7cbe615aaa71997d8777
 <
@@ -37,10 +35,6 @@ P
  src/components/header/header.css,e/b/eb34f04faa66c967045a80642c55e3ae97272056
 V
 &src/components/ramdom-palanet/index.js,4/3/437f30b3798f7cb8de225fb3c5f3f7e52a47e067
-`
-0src/components/person-details/person-details.css,f/0/f09644d908b8810c9b04b1a1ed00cd06ba543be2
-`
-0src/components/person-details/paerson-details.js,8/4/84daaa8e79d7b2be71ede53ce9d6b5a087867c1c
 _
 /src/components/ramdom-palanet/random-planet.css,6/5/655a368613edc21fc28e1d72d161cf75f9a0e518
 M
@@ -65,3 +59,13 @@ S
 #src/components/people-page/index.js,9/e/9e45ed48f157c7dc3004419bcc9b8e9e4b788242
 Z
 *src/components/people-page/people-page.css,b/6/b6f65709c324cd34a49e0c8d4c838950114f46be
+Q
+!src/components/people-page/row.js,4/8/4824a10518d17b9511c97b6a1256e318ead270d2
+_
+/src/components/error-boundary/error-boundary.js,5/8/582fe89eec75feff54633c113f8d878a2b117a8b
+\
+,src/components/item-details/item-details.css,6/1/616d6e990d05b8ecbb38b024f1c98d47037f11a0
+T
+$src/components/item-details/index.js,1/f/1f5361e2067973827b19e06acbab50c2d94ecc00
+[
++src/components/item-details/item-details.js,e/3/e32ffd14e0cfab530a212abcf682b4b0413e8bc1

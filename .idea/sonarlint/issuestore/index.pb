@@ -69,3 +69,13 @@ T
 $src/components/item-details/index.js,1/f/1f5361e2067973827b19e06acbab50c2d94ecc00
 [
 +src/components/item-details/item-details.js,e/3/e32ffd14e0cfab530a212abcf682b4b0413e8bc1
+S
+#src/components/hoc-helpers/index.js,4/8/48f50eec230f7f05bdaa8be74bf4189e73773a27
+W
+'src/components/hoc-helpers/with-data.js,b/8/b8ce98abc9ed143052f2a397641a149f3e54d224
+U
+%src/components/sw-components/index.js,5/6/5685a0c4454dd31c845f60038ed41ca04423ea7a
+Y
+)src/components/sw-components/item-list.js,6/3/632545595926eb502c8112e79da11fea0e77bb0c
+W
+'src/components/sw-components/details.js,b/b/bb5da5047ea739307ea6126643a86d7ba0466b82

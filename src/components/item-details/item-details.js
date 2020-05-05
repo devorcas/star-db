@@ -1,11 +1,8 @@
 import React, {Component} from "react";
 
 import "./item-details.css";
-import SwapiService from "../../services/swapi-service";
 
 export default class ItemDetails extends Component {
-
-  swapiService = new SwapiService();
 
   state = {
     item: null,
@@ -25,7 +22,9 @@ export default class ItemDetails extends Component {
   componentDidUpdate(prevProps, prevState, snapshot) {
     console.log('componentDidUpdate() ');
 
-    if (this.props.itemId !== prevProps.itemId) {
+    if (this.props.itemId !== prevProps.itemId
+        || this.props.getData !== prevProps.getData
+        || this.props.getImageUrl !== prevProps.getImageUrl) {
       this.updateItem();
     }
   }
@@ -46,7 +45,7 @@ export default class ItemDetails extends Component {
   }
 
   render() {
-    const {id, item, image} = this.state;
+    const {item, image} = this.state;
 
     if (!item) {
       return (<span>Select item from a list</span>);
@@ -58,7 +57,7 @@ export default class ItemDetails extends Component {
         <div className="item-details card">
           <img className="item-image"
                src={image}
-                alt="item"/>
+               alt="item"/>
 
           <div className="card-body">
             <h4>{name}</h4>

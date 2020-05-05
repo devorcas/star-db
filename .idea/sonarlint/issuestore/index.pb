@@ -77,5 +77,13 @@ U
 %src/components/sw-components/index.js,5/6/5685a0c4454dd31c845f60038ed41ca04423ea7a
 Y
 )src/components/sw-components/item-list.js,6/3/632545595926eb502c8112e79da11fea0e77bb0c
-W
-'src/components/sw-components/details.js,b/b/bb5da5047ea739307ea6126643a86d7ba0466b82
+m
+=src/components/swapi-service-context/swapi-service-context.js,1/3/13ab8405db7d554a0ce74f5753186235391d9a2c
+^
+.src/components/sw-components/planet-details.js,0/8/085ffb77e6a73256fc9817088400058de23436ec
+`
+0src/components/sw-components/starship-details.js,2/f/2fba3f2d71c8d86fd59a0a5f508edc81e8f47a11
+^
+.src/components/sw-components/person-details.js,6/9/6941a47b7d2d251abe1e5ff83020a1507e7e82ed
+`
+0src/components/hoc-helpers/with-swapi-service.js,7/2/723258c0cb725d718a240cfdd2f3429d82bb233e

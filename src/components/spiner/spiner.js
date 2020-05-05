@@ -2,7 +2,7 @@ import React from "react";
 
 import "./spiner.css"
 
- const Spinner = () => {
+const Spinner = () => {
     return (
         <div className="loadingio-spinner-double-ring-o2cum9syd29">
           <div className="ldio-qw86nv30qul">

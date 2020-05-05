@@ -2,12 +2,13 @@ import React, {Component} from "react";
 import Spinner from "../spiner";
 import ErrorIndicator from "../error-indicator";
 
-const withData = (View, getData) => {
+const withData = (View) => {
   return class extends Component {
 
     state = {
       data: null,
-      hasError: false
+      hasError: false,
+      loading: true
     }
 
     componentDidCatch(error, errorInfo) {
@@ -16,23 +17,39 @@ const withData = (View, getData) => {
       });
     }
 
-    componentDidMount() {
-      getData
+    componentDidUpdate(prevProps, prevState, snapshot) {
+      if (prevProps.getData !== this.props.getData) {
+        this.update();
+      }
+    }
+
+    update() {
+      this.setState({
+        loading: true,
+        hasError: false
+      })
+
+      this.props.getData()
       .then((data) => {
         this.setState({
-          data
+          data,
+          loading: false
         });
       });
     }
 
+    componentDidMount() {
+      this.update();
+    }
+
     render() {
-      const {data, hasError} = this.state;
+      const {data, hasError, loading} = this.state;
 
       if (hasError) {
         return <ErrorIndicator/>;
       }
 
-      if (!data) {
+      if (loading) {
         return <Spinner/>;
       }
 

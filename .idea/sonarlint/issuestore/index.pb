@@ -91,3 +91,14 @@ I
 src/components/row/row.js,f/6/f6a1002c1769921ef24d83546185534d80de18c2
 U
 %src/components/pages/starship-page.js,0/e/0e804d3d83b4dc8e67c26feffa73c8b55176bcbd
+U
+%src/components/hoc-helpers/compose.js,a/3/a31d09c427280234417af41781a683ecf3d230ab
+`
+0src/components/hoc-helpers/with-child-helpers.js,d/9/d927c22a1d05d22e2a8f4cfafd4b5266b282c07f
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
